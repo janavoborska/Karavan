@@ -125,10 +125,28 @@ body {
     height: 43px;
 }
 
-#technicke_parametry {
+h1 {
+    margin-left: 20rem;
     margin-top: 4rem;
 }
 
+#technicke_parametry {
+    margin-top: 2rem;
+}
+
+.parametry {
+    margin-top: -3rem;
+}
+.specifikace {
+    display: flex;
+    flex-wrap:nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.specifikace ul{
+    padding-right: 20px;
+}
 .technicke_parametry img,
 .comusitevidet img {
     max-width: 100%;
