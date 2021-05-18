@@ -63,8 +63,7 @@ body {
 
    
 
-/* MENU 
-background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(images/rajcata.jpg);
+/* MENU
 */
 
 .menu {
@@ -97,9 +96,40 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), 
 
 
 /* OBSAH */
+.uvod {
+    display: flex;
+}
+.telefony {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem ;
+}
 
-.uvod img,
-.proc img,
+.telefon, .mail {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.mail {
+    margin-left: 2rem;
+}
+
+.email {
+    margin-top: -16px;
+    margin-left: -16px;
+}
+
+.ikonka--telefon {
+    padding-top: 0.3rem;
+    width: 43px;
+    height: 43px;
+}
+
+#technicke_parametry {
+    margin-top: 4rem;
+}
+
+.technicke_parametry img,
 .comusitevidet img {
     max-width: 100%;
     height: auto;
@@ -128,7 +158,7 @@ h2 {
     font-family: 'Raleway', serif;
 }
 
-.proc h2::after,
+.technicke_parametry h2::after,
 .comusitevidet h2::after,
 .fotogalerie h2::after {
     content: " ";
