@@ -190,6 +190,36 @@ h2 {
     margin-left: -20px;
 }
 
+/* CENIK */
+.pozadi {
+    background-color: rgb(214, 232, 248);
+}
+.components {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    justify-content: space-around;
+  }
+  
+  .components button {
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    width: 220px;
+    height: 100px;
+    background-color: #fcfcfc;
+    text-align: center;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+  }
+
 /* FOTOGALERIE */
 .popisek-copy {
     text-align: center;
