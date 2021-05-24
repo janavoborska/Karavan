@@ -96,6 +96,10 @@ body {
 
 
 /* OBSAH */
+h3 {
+    text-align: center;
+    font-style: italic;
+}
 .uvod {
     display: flex;
 }
@@ -126,7 +130,7 @@ body {
 }
 
 h1 {
-    margin-left: 20rem;
+   text-align: center;
     margin-top: 4rem;
 }
 
@@ -148,7 +152,7 @@ h1 {
     padding-right: 20px;
 }
 .technicke_parametry img,
-.comusitevidet img {
+.kalendar img {
     max-width: 100%;
     height: auto;
 }
@@ -177,7 +181,7 @@ h2 {
 }
 
 .technicke_parametry h2::after,
-.comusitevidet h2::after,
+.kalendar h2::after,
 .fotogalerie h2::after {
     content: " ";
     display: block;
@@ -331,6 +335,9 @@ figure {
 }
 
 @media screen and (min-width: 1000px) {
+h1 {
+    margin-top: 5rem;
+    }
 .hlavicka {
     height: 350px;
 }
@@ -365,12 +372,6 @@ figure {
     padding-right: 20px;
 }
 
-.comusitevidet p,
-.comusitevidet h2,
-.dalsiinfo p {
-    padding-left: 250px;
-}
-
 .galerie {
     max-width: 100%;
     margin-bottom: 0;
@@ -383,6 +384,7 @@ figure {
     width: 250px;
     padding-right: 10px;
     float: left;
+    margin-bottom: 0;
     
 }
 
@@ -390,8 +392,8 @@ figure {
     border-bottom: 1px solid  #aa9f9f;
     width: 150px;
     text-align: left ;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: px;
     border-top: 0;
 }
 
