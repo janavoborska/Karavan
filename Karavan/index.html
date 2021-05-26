@@ -4,12 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nejlepší obytňák</title>
-    <link
+    <!--<link
       href="https://fonts.googleapis.com/css?family=Merriweather:400,400i|Raleway:400,700"
       rel="stylesheet"
-    />
+    />-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js" ></script>
+    <link rel="stylesheet" href="./tavo-calendar.css" />
+<script src="./tavo-calendar.js"></script>
   </head>
+
+<!--google forms -> naklikat form -> odeslat -> vybrat < > a tam bude kod na iframe, ten pouzit ve strance, pripadne dohledat google embed form styling custom css-->
 
   <body>
     <!-- hlavička -->
@@ -44,7 +51,7 @@
           </div>
         </div>
 
-        <div class="mail">
+        <div class="mail obalka">
           <img
           class="ikonka--telefon"
           src="./img/iconmonstr-email-3-48.png"
@@ -117,6 +124,12 @@
 
       <div class="kalendar">
         <h2>Kalendář</h2>
+
+        <div id="my-calendar"></div>
+
+      
+      <!-- 
+      
         <div class="obal">
           <img src="island3.jpg" alt="Island" />
           <p class="popisek">
@@ -125,7 +138,7 @@
           </p>
         </div>
       </div>
-
+-->
 
       <!-- sekce Fotogalerie -->
       <div id="fotogalerie" class="fotogalerie">
@@ -195,5 +208,11 @@
 
       <!-- patička -->
       <div class="paticka"></div>
+      <script>const myCalendar = new TavoCalendar('#my-calendar', {
+        blacklist: ["31-05-2021"],
+        range_select: false,
+        format: "DD-MM-YYYY",
+        locale: "cz"
+      });</script>
   </body>
 </html>
