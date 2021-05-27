@@ -224,6 +224,15 @@ h2 {
     box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
   }
 
+/* KALENDÁŘ  hlavní styl je z knihovny a script v html na konci */
+
+.poznamka {
+    font-style: italic;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: small;
+}
+
 /* FOTOGALERIE */
 .popisek-copy {
     text-align: center;
