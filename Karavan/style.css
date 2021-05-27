@@ -234,6 +234,10 @@ h2 {
 }
 
 /* FOTOGALERIE */
+.fotogalerie {
+    padding-top: 1rem;
+}
+
 .popisek-copy {
     text-align: center;
     font-family: 'Raleway', sans-serif;
